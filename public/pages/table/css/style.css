@@ -1,0 +1,93 @@
+.custom-table {
+  min-width: 900px;
+}
+
+.custom-table thead tr,
+.custom-table thead th {
+  padding-bottom: 30px;
+  border-top: none;
+  border-bottom: none !important;
+  color: #1977cc;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.custom-table tbody th,
+.custom-table tbody td {
+  color: #1977cc;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 13px;
+  border: none;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  font-family: "Open Sans", sans-serif;
+
+}
+
+.custom-table tbody th a,
+.custom-table tbody td a {
+  color: #1977cc;
+  font-family: "Open Sans", sans-serif;
+
+}
+
+.custom-table tbody th .more,
+.custom-table tbody td .more {
+  color: #1977cc;
+  font-size: 11px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-family: "Open Sans", sans-serif;
+
+}
+
+.custom-table tbody tr {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  font-family: "Open Sans", sans-serif;
+
+}
+
+.custom-table tbody tr:hover td,
+.custom-table tbody tr:focus td {
+  color: #03C988;
+  font-family: "Open Sans", sans-serif;
+}
+
+.custom-table tbody tr:hover td a,
+.custom-table tbody tr:focus td a {
+  color: #03C988;
+  font-family: "Open Sans", sans-serif;
+}
+
+.custom-table tbody tr:hover td .more,
+.custom-table tbody tr:focus td .more {
+  color: #03C988;
+  font-family: "Open Sans", sans-serif;
+}
+
+.custom-table .td-box-wrap {
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.custom-table .box {
+  background: #fff;
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.custom-table .box td,
+.custom-table .box th {
+  border: none !important;
+  font-family: "Open Sans", sans-serif;
+}
